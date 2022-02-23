@@ -1,0 +1,109 @@
+.stories{
+   padding: 10px 0px 150px;
+   background-color: var(--bg-color);
+}
+.stories__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 34px;
+   text-align: center;
+   line-height: 51px;
+   color: var(--color-text);
+   margin-top: 0px;
+   margin-bottom: 8px;
+}
+.stories__text{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   color: var(--color-text);
+   margin-top: 0px;
+   text-align: center;
+   margin-bottom: 32px;
+}
+.stories__list{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0px;
+   padding: 0px;
+   margin-bottom: 32px;
+}
+.stories__item{
+   list-style: none;
+   width: 348px;
+   background: #FFFFFF;
+   border-radius: 8px;
+   border: 1px solid #e5e5e5;
+}
+.stories__item + .stories__item{
+   margin-left: 30px;
+}
+.stories__item:nth-child(4){
+   margin-left: 0px;
+   margin-top: 32px;
+}
+.stories__item:nth-child(5){
+   margin-top: 32px;
+}
+.stories__item:nth-child(6){
+   margin-top: 32px;
+}
+.stories__info{
+   padding: 22px 30px 40px 24px;
+}
+.stories__describe{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 28px;
+   color: #22343D;
+   margin-top: 0px;
+   margin-bottom: 12px;
+}
+.stories__hidding{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 40px;
+   color: #22343D;
+   margin: 0px;
+}
+
+
+.stories__img{
+   border-radius: 8px 8px 0px 0px;
+}
+.stories__link-case{
+   display: flex;
+   flex-direction: column;
+}
+.stories__link{
+   text-align: center;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 26px;
+   text-decoration: none;
+   color: $main-color;
+   padding-right: 30px;
+   position: relative;
+   z-index: 1;
+   margin: 0px auto;
+   &::before{
+      content: "";
+      position: absolute;
+      z-index: 1;
+      background-image: url(../img/circle_right.svg);
+      background-repeat: no-repeat;
+      width: 25px;
+      height: 25px;
+      right: calc(50% - 70px);
+      top: 3px;
+   }
+}

@@ -1,0 +1,43 @@
+.contact{
+   padding: 10px 0 60px;
+   background-color: var(--bg-color);
+}
+.contact__info-box{
+   width: 312px;
+   text-align: center;
+   margin: 0px auto;
+   margin-bottom: 66px;
+}
+.contact__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 34px;
+   line-height: 57px;
+   text-align: center;
+   letter-spacing: 0.2px;
+   margin-top: 0px;
+   margin-bottom: 27px;
+   color: var(--color-text);
+}
+.contact__describe{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: 0.2px;
+   color: var(--color-text);
+   margin-top: 0px;
+   margin-bottom: 65px;
+}
+.networks--contact{
+   justify-content: center;
+}
+.iframe{
+   display: block;
+   width: 100%;
+   max-width: 875px;
+   margin: 0px auto;
+}

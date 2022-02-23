@@ -1,0 +1,101 @@
+.great{
+   padding: 75px 0px 60px;
+   background-color: var(--bg-color);
+}
+.great__inside{
+   display: flex;
+   justify-content: space-between;
+}
+// .great__info{
+//    width: 535px;
+//    margin-right: auto;
+// }
+.great__title-case{
+   width: 380px;
+   margin-bottom: 24px;
+}
+.great__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 149%;
+   letter-spacing: -0.03em;
+   color: var(--color-text);
+   margin: 0px;
+}
+.great__describe{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 160%;
+   margin: 0px;
+   letter-spacing: -0.03em;
+   color: var(--color-text);
+   margin-bottom: 24px;
+}
+.great__form{
+   margin-bottom: 24px;
+   position: relative;
+   z-index: 1;
+}
+.great__input{
+   width: 470px;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 160%;
+   margin: 0px;
+   letter-spacing: -0.03em;
+   color: var(--color-text);
+   border: 1px solid #EAEAEA;
+   border-radius: 100px;
+   background-color: var(--bg-color);
+   padding: 20px 0px 20px 27px;
+   outline: none;
+}
+.great__input:focus{
+   color: var(--color-text);
+}
+.great__input::placeholder{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 100%;
+   letter-spacing: -0.03em;
+   color: var(--color-text);
+   transition: 0.5s ease
+}
+.great__button{
+   @include green-link;
+   width: 120px;
+   border-radius: 100px;
+   cursor: pointer;
+   position: absolute;
+   z-index: 2;
+   padding: 15px 0px;
+   top: 50%;
+   right: -19px;
+   transform: translate(-50% , -50%);
+}
+.remembers{
+   display: flex;
+   align-items: center;
+}
+.remembers__info{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 21px;
+   color: var(--color-text);
+   margin: 0px;
+   margin-left: 10px;
+}
+.remembers__info--green{
+   color: #02897A;
+   margin-left: 0px;
+}

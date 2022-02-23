@@ -1,0 +1,156 @@
+.question{
+   padding-top: 50px;
+   background-color: var(--bg-color);
+   padding-bottom: 150px;
+}
+.question__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 34px;
+   line-height: 51px;
+   color: var(--color-text);
+   margin-top: 0px;
+   margin-bottom: 8px;
+   text-align: center;
+}
+.question__describe{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 27px;
+   color: var(--color-text);
+   margin-top: 0px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.question__list{
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+   width: 100%;
+   max-width: 920px;
+   margin: 0px auto;
+}
+.question__item1{
+   padding: 24px 0px;
+   border-bottom: 1px solid #E7E7E7;
+}
+.question__box1{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+.question__item2{
+   padding: 24px 0px;
+   border-bottom: 1px solid #E7E7E7;
+}
+.question__box2{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+.question__item3{
+   padding: 24px 0px;
+   border-bottom: 1px solid #E7E7E7;
+}
+.question__box3{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+.question__item4{
+   padding: 24px 0px;
+   border-bottom: 1px solid #E7E7E7;
+}
+.question__box4{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+.question__btn{
+   border: none;
+   background-color: transparent;
+   margin-right: 10px;
+   margin-bottom: 2px;
+   cursor: pointer;
+}
+.question__hidding{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 27px;
+   color: var(--color-text);
+   margin: 0px;
+}
+.question__ask1{
+   display: none;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--color-text);
+   margin-top: 14px;
+   margin-bottom: 0px;
+}
+.question__ask2{
+   display: none;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--color-text);
+   margin-top: 14px;
+   margin-bottom: 0px;
+}
+.question__ask3{
+   display: none;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--color-text);
+   margin-top: 14px;
+   margin-bottom: 0px;
+}
+.question__ask4{
+   display: none;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--color-text);
+   margin-top: 14px;
+   margin-bottom: 0px;
+}
+
+.ask1 .question__btn img{
+content: url(../../img/minus_circle.svg);
+}
+.ask2 .question__btn img{
+content: url(../../img/minus_circle.svg);
+}
+.ask3 .question__btn img{
+content: url(../../img/minus_circle.svg);
+}
+.ask4 .question__btn img{
+content: url(../../img/minus_circle.svg);
+}
+.ask1 .question__ask1{
+   display: block;
+}
+.ask2 .question__ask2{
+   display: block;
+}
+.ask3 .question__ask3{
+   display: block;
+}
+.ask4 .question__ask4{
+   display: block;
+}

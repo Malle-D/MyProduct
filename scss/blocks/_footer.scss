@@ -1,0 +1,143 @@
+.footer{
+   background-color: var(--bg-color);
+   padding-bottom: 10px;
+}
+.footer__inside{
+   display: flex;
+   margin-bottom: 24px;
+}
+.footer__logo-box{
+   margin-right: 160px;
+}
+.footer__logo{
+   display: inline-block;
+   margin-bottom: 28px;
+}
+.dark .footer__logo-img{
+   content: url(../../img/logo-dark.svg);
+}
+.networks{
+   display: flex;
+   margin: 0px;
+   padding: 0px;
+}
+.networks__item{
+   list-style: none;
+}
+.networks__item + .networks__item{
+   margin-left: 16px;
+}
+.footer__link-box + .footer__link-box{
+   margin-left: 150px;
+   margin-right: auto;
+}
+.box__title{
+   display: inline-block;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   color: var(--color-text);
+   margin-bottom: 8px;
+}
+.box__list{
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+.box__item + .box__item{
+   margin-top: 4px;
+}
+.box__link{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 35px;
+   color: var(--color-text);
+   text-decoration: none;
+}
+.form-box__title-case{
+   display: inline-block;
+   width: 280px;
+}
+.form-box__title{
+   display: inline-block;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   color: var(--color-text);
+   margin-bottom: 24px;
+   // text-align: right;
+}
+.form__label{
+   display: block;
+   margin-bottom: 20px;
+}
+.form__input{
+   width: 100%;
+   max-width: 325px;
+   background: #FFFFFF;
+   border: 1px solid #BCD0E5;
+   border-radius: 4px;
+   padding: 10px 0px 10px 15px;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 20px;
+   color: #22343D;
+}
+.form__button{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 8px 15px;
+   border-radius: 4px;
+   border: none;
+   background-color: #02897A;
+   cursor: pointer;
+}
+.footer__describe{
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 30px;
+   color: var(--color-text);
+   text-align: center;
+}
+
+@media only screen and (max-width:426px) {
+   .footer__inside{
+      flex-direction: column;
+   }
+   .footer__logo-box{
+      margin: 0px auto 32px;
+   }
+   .box{
+      margin: 0px auto;
+      text-align: center;
+   }
+   .box + .box{
+      margin: 32px auto;
+   }
+   .footer__form-box{
+      margin: 0px auto;
+   }
+   .form-box__title{
+      text-align: center;
+   }
+   .form__button{
+      display: block;
+      margin: 0px auto;
+   }
+}

@@ -1,0 +1,109 @@
+.process{
+   padding-top: 53px;
+   padding-bottom: 100px;
+   background-image: url(../../img/process-bg.png);
+   background-repeat: no-repeat;
+   background-position: calc(50% ) calc(0% );
+   background-color: var(--bg-color);
+}
+.dark .process{
+   background-image: url(../img/process-bg-dark.png);
+}
+.process__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 48px;
+   text-align: center;
+   color: var(--color-text);
+   margin-top: 0px;
+   margin-bottom: 16px;
+}
+.process__info-case{
+   width: 100%;
+   max-width: 542px;
+   margin: 0px auto 30px;
+}
+.process__info{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   color: var(--color-text);
+   margin: 0px;
+}
+.process__roster{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 0px;
+   padding: 0px;
+}
+.process__roster + .process__roster{
+   margin-top: 24px;
+   margin-bottom: 48px;
+}
+.process__element{
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+.process__element-reverse{
+   flex-direction: row-reverse;
+}
+.process__img{
+   margin-left: 16px;
+}
+.process__img--left{
+   margin-left: 0px;
+   margin-right: 16px;
+}
+.process__quote{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #2F281E;
+   background: #fff;
+   box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+   border-radius: 26.5px;
+   margin: 0px;
+   padding: 15px 20px;
+}
+.process__link-case{
+   display: flex;
+}
+.process__link{
+   margin: 0 auto;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   text-decoration: none;
+   padding: 10px 25px;
+   box-sizing: border-box;
+   border-radius: 4px;
+   border: 1px solid #02897A;
+   background-color: #02897A;
+   color: #FFFFFF;
+}
+
+@media only screen and (max-width:426px){
+   .process__roster{
+      flex-direction: column;
+   }
+   .process__roster:nth-child(4){
+      flex-direction: column-reverse;
+   }
+   .process__element + .process__element{
+      margin-top: 32px;
+   }
+   .process__item{
+      margin-top: 32px;
+   }
+}

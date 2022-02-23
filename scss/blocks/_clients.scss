@@ -1,0 +1,30 @@
+.clients{
+   padding-top: 100px;
+   padding-bottom: 115px;
+   background-color: var(--bg-color);
+}
+.clients__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 60px;
+   color: var(--color-text);
+   margin: 0px;
+   margin-bottom: 50px;
+   text-align: center;
+}
+.clients__list{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0px;
+   padding: 0px;
+}
+.clients__item{
+   list-style: none;
+}
+.clients__item + .clients__item{
+   margin-left: 65px;
+}
+

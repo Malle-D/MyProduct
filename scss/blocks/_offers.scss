@@ -1,0 +1,101 @@
+.offers{
+   padding: 35px 0px 45px;
+   margin-bottom: 155px;
+   background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+}
+.dark .offers{
+   background: #2a3d47;
+}
+.offers__title-case{
+   width: 540px;
+   margin: 0px auto;
+   margin-bottom: 90px;
+}
+.offers__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 48px;
+   text-align: center;
+   color: var(--color-text);
+   margin: 0px;
+}
+.offers__list{
+   display: flex;
+   justify-content: center;
+   margin: 0px;
+   padding: 0px;
+}
+.offers__item{
+   list-style: none;
+   text-align: center;
+   padding: calc(150px + 27px) 10px 0px 10px;
+   position: relative;
+   z-index: 1;
+}
+.offers__item + .offers__item{
+   margin-left: 115px;
+}
+.offers__item:nth-child(1)::before{
+   content: "";
+   position: absolute;
+   z-index: 1;
+   width: 150px;
+   height: 150px;
+   background-image: url(../../img/offer1.png);
+   top: 0;
+   left: 50%;
+   transform: translate(-50%);
+}
+.offers__item:nth-child(2)::before{
+   content: "";
+   position: absolute;
+   z-index: 1;
+   width: 150px;
+   height: 150px;
+   background-image: url(../../img/offer2.png);
+   top: 0;
+   left: 50%;
+   transform: translate(-50%);
+}
+.item__offers-title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   color: var(--color-text);
+   margin-top: 0px;
+   margin-bottom: 16px;
+}
+.item__offers-list{
+   margin: 0px;
+   padding: 0px;
+}
+.item__offers-elements{
+   list-style: none;
+}
+.item__offers-partition{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 32px;
+   color: var(--color-text);
+   margin-top: 0px;
+   margin-bottom: 12px;
+}
+.offers__describe{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 28px;
+   color: #000000;
+   margin: 0px;
+   padding-top: 8px;
+}
+.dark .offers__describe{
+   color: #fff;
+}

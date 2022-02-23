@@ -1,0 +1,90 @@
+.massage{
+   padding-bottom: 150px;
+}
+.massage__inside{
+   width: 870px;
+   margin: 0px auto;
+   padding: 52px 50px;
+   background: #FFFFFF;
+   border: 1px solid #DDDDDD;
+   border-radius: 20px;
+}
+.dark .massage__inside{
+   background: #2a3d47;
+   border: 1px solid #464646;
+}
+.massage__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 33px;
+   letter-spacing: 0.1px;
+   color: var(--color-text);
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 45px;
+}
+.massage__form{
+   display: flex;
+   flex-direction: column;
+}
+.massage__input{
+   width: 100%;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 160%;
+   background: #F5F5F5;
+   border: 1px solid #E8E8E8;
+   border-radius: 40px;
+   padding: 19px 0px 19px 20px;
+   outline: none;
+}
+.massage__input::placeholder{
+   font-family: "Poppins";
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 160%;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: #22343D;
+}
+.massage__input:focus{
+   border-color: $main-color;
+}
+.massage__textaria::placeholder{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: #22343D;
+}
+.massage__textaria:focus{
+   border-color: $main-color;
+}
+.massage__textaria{
+   width: 100%;
+   background: #F5F5F5;
+   border: 1px solid #E8E8E8;
+   border-radius: 4px;
+   padding: 19px 0px 19px 20px;
+   outline: none;
+   resize: none;
+}
+.massage__label{
+   margin-bottom: 45px;
+}
+.massage__button{
+   @include green-link;
+   width: 145px;
+   border-radius: 35px;
+}

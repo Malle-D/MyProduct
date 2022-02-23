@@ -1,0 +1,24 @@
+@mixin green-link {
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   text-decoration: none;
+   padding: 10px 25px;
+   box-sizing: border-box;
+   border-radius: 4px;
+   border: 1px solid #02897A;
+   background-color: #02897A;
+   color: #FFFFFF;
+}
+
+// @mixin theme-colors($light-theme: true) {
+//    @if $light-theme {
+//       background-color: $main-bg;
+//       color: $main-color;
+//    } @else {
+//       background-color: $main-bg-dark !important;
+//       color: $main-color-dark !important;
+//    }
+// }

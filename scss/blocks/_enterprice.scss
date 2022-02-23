@@ -1,0 +1,51 @@
+.enterprice{
+   background-image: url(../../img/enterprice-bg.png);
+   background-size: 1530px 320px;
+   background-repeat: no-repeat;
+   background-position: calc(50%) calc(0% + 50px);
+   padding: 55px 0px 50px 0px;
+   margin-top: 45px;
+}
+.dark .enterprice{
+   background-image: none;
+   background-color: #2a3d47;
+}
+.enterprice__about{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   display: block;
+   text-align: center;
+   color: var(--color-text);
+}
+.enterprice__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 34px;
+   line-height: 51px;
+   margin: 16px 0px 8px;
+   color: var(--color-text);
+   text-align: center;
+}
+.enterprice__describe{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 27px;
+   color: var(--color-text);
+   margin-top: 0px;
+   margin-bottom: 32px;
+   text-align: center;
+}
+.enterprice__link-case{
+   display: flex;
+   flex-direction: column
+}
+.enterprice__link{
+   @include green-link;
+   margin: 0px auto;
+}

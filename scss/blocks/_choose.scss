@@ -1,0 +1,95 @@
+.choose{
+   padding: 24px 0px 70px;
+   background-color: #F5F5F5;
+}
+.dark .choose{
+   background-color: #2a3d47;
+}
+.choose__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 34px;
+   line-height: 51px;
+   text-align: center;
+   color: var(--color-text);
+   margin-top: 0px;
+   margin-bottom: 50px;
+}
+.choose__list{
+   display: flex;
+   justify-content: center;
+   margin: 0px;
+   padding: 0px;
+}
+.choose__item{
+   width: 350px;
+   list-style: none;
+   padding: 115px 25px 40px 25px;
+   text-align: center;
+   border: 1px solid #DEDEDE;
+   border-radius: 10px;
+   position: relative;
+   z-index: 1;
+}
+.choose__item + .choose__item{
+   margin-left: 30px;
+}
+.choose__item:nth-child(1)::before{
+   content: "";
+   position: absolute;
+   z-index: 1;
+   background-image: url(../img/icon.png);
+   background-repeat: no-repeat;
+   width: 60px;
+   height: 60px;
+   top: 32px;
+   left: 50%;
+   transform: translate(-50%);
+}
+.choose__item:nth-child(2)::before{
+   content: "";
+   position: absolute;
+   z-index: 1;
+   background-image: url(../img/icon-1.png);
+   background-repeat: no-repeat;
+   width: 60px;
+   height: 60px;
+   top: 32px;
+   left: 50%;
+   transform: translate(-50%);
+}
+.choose__item:nth-child(3)::before{
+   content: "";
+   position: absolute;
+   z-index: 1;
+   background-image: url(../img/icon-2.png);
+   background-repeat: no-repeat;
+   width: 60px;
+   height: 60px;
+   top: 32px;
+   left: 50%;
+   transform: translate(-50%);
+}
+.choose__item-hidding{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 33px;
+   letter-spacing: 0.1px;
+   color: var(--color-text);
+   margin-top: 0px;
+   margin-bottom: 16px;
+}
+.choose__describe{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 27px;
+   text-align: center;
+   letter-spacing: 0.2px;
+   color: var(--color-text);
+   margin: 0px;
+}

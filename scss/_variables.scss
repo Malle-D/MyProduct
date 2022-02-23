@@ -1,0 +1,14 @@
+$main-color: #22343D;
+$main-bg: #fff;
+$main-color-dark:#fff;
+$main-bg-dark: #22343D;
+
+:root {
+  --bg-color: #{$main-bg};
+  --color-text: #{$main-color};
+}
+
+body.dark {
+  --bg-color: #{$main-bg-dark};
+  --color-text: #{$main-color-dark};
+}

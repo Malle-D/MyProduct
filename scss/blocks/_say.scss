@@ -1,0 +1,102 @@
+.say{
+   padding-top: 50px;
+   padding-bottom: 160px;
+   background-color: var(--bg-color);
+}
+.say__title-case{
+   width: 100%;
+   max-width: 540px;
+   margin: 0px auto 50px;
+}
+.say__title{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 34px;
+   line-height: 57px;
+   letter-spacing: 0.2px;
+   text-align: center;
+   color: var(--color-text);
+   margin-top: 0px;
+   margin-bottom: 8px;
+}
+.say__describe{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: 0.2px;
+   color: var(--color-text);
+   margin: 0px;
+}
+.say__list{
+   display: flex;
+   justify-content: space-between;
+   margin: 0px;
+   padding: 0px;
+}
+.say__item{
+   list-style: none;
+   background: #FFFFFF;
+   border: 1px solid #DEDEDE;
+   border-radius: 5px;
+   padding: 28px 26px 24px;
+}
+.say__item:nth-child(2){
+   margin: 0px 65px;
+}
+.say__stars{
+   margin-bottom: 16px;
+}
+.say__quote{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 28px;
+   letter-spacing: 0.2px;
+   color: #737373;
+   margin: 0px;
+   margin-bottom: 16px;
+}
+.say__author-info{
+   display: flex;
+   align-items: center;
+}
+.say__author-img{
+   margin-right: 14px;
+}
+.say__author-name{
+   display: block;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.2px;
+   color: #02897A;
+}
+.say__author-job{
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.2px;
+   color: #252B42;
+}
+
+@media only screen and (max-width:426px){
+   .say__list{
+      flex-direction: column;
+   }
+   .say__item{
+      width: 90%;
+      margin: 0px auto;
+   }
+   .say__item:nth-child(2){
+      margin: 32px auto 32px;
+   }
+}
