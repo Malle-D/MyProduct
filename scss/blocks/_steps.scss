@@ -35,7 +35,8 @@
    margin-left: 75px;
 }
 .steps__info{
-   width: 445px;
+   width: 100%;
+   max-width: 445px;
 }
 .steps__number{
    font-family: "Poppins";
@@ -75,4 +76,26 @@
    border-radius: 8px;
    padding: 11px 18px;
    margin: 0px auto;
+}
+
+@media only screen and (max-width:426px){
+   .steps__title{
+      font-size: 32px;
+      line-height: 48px;
+   }
+   .steps__item{
+      flex-direction: column;
+      margin-bottom: 80px;
+   }
+   .steps__item:nth-child(2){
+      flex-direction: column;
+   }
+   .steps__img{
+      width: 100%;
+      max-width: 350px;
+      margin: 0px auto 70px;
+   }
+   .steps__img--left{
+      margin: 0px auto 70px;
+   }
 }

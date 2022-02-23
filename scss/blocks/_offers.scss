@@ -7,7 +7,8 @@
    background: #2a3d47;
 }
 .offers__title-case{
-   width: 540px;
+   width: 100%;
+   max-width: 540px;
    margin: 0px auto;
    margin-bottom: 90px;
 }
@@ -98,4 +99,16 @@
 }
 .dark .offers__describe{
    color: #fff;
+}
+
+@media only screen and (max-width:426px){
+   .offers__list{
+      flex-direction: column;
+   }
+   .offers__item + .offers__item{
+      margin: 62px auto 0px;
+   }
+   .offers__item{
+      margin: 0px auto;
+   }
 }

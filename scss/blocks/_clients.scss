@@ -28,3 +28,32 @@
    margin-left: 65px;
 }
 
+@media only screen and (max-width:426px){
+   .clients{
+      padding-top: 120px;
+   }
+   .clients__list{
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   .clients__item + .clients__item{
+      margin-left: 0;
+   }
+   .clients__item:nth-child(1){
+      margin-bottom: 60px;
+   }
+   .clients__item:nth-child(2){
+      margin-bottom: 60px;
+   }
+}
+
+@media only screen and (max-width:411px){
+   .clients__list{
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+   }
+   .clients__item:nth-child(3){
+      margin-bottom: 60px;
+   }
+}

@@ -23,7 +23,8 @@
    padding: 0px;
 }
 .choose__item{
-   width: 350px;
+   width: 100%;
+   max-width: 350px;
    list-style: none;
    padding: 115px 25px 40px 25px;
    text-align: center;
@@ -92,4 +93,16 @@
    letter-spacing: 0.2px;
    color: var(--color-text);
    margin: 0px;
+}
+
+@media only screen and (max-width:426px){
+   .choose__list{
+      flex-direction: column;
+   }
+   .choose__item{
+      margin: 0px auto;
+   }
+   .choose__item + .choose__item{
+      margin: 32px auto 0px;
+   }
 }
