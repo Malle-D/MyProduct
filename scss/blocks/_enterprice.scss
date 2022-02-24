@@ -2,7 +2,7 @@
    background-image: url(../../img/enterprice-bg.png);
    background-size: 1530px 320px;
    background-repeat: no-repeat;
-   background-position: calc(50%) calc(0% + 50px);
+   background-position: calc(50%) calc(0% + 10px);
    padding: 55px 0px 50px 0px;
    margin-top: 45px;
 }
@@ -48,4 +48,11 @@
 .enterprice__link{
    @include green-link;
    margin: 0px auto;
+}
+
+@media only screen and(max-width:426px) {
+   .enterprice{
+      margin-top: 0px;
+      // padding-top: ;
+   }
 }

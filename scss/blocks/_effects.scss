@@ -1,5 +1,5 @@
 .effects{
-   padding: 150px;
+   padding-top: 150px;
    padding-bottom: 100px;
    background-color: var(--bg-color);
 }
@@ -19,7 +19,8 @@
    align-items: center;
 }
 .effects__info{
-   width: 520px;
+   width: 100%;
+   max-width: 520px;
    margin-left: auto;
 }
 .effects__hidding{
@@ -74,4 +75,19 @@
    color: var(--color-text);
    margin-top: 0px;
    margin-bottom: 40px;
+}
+
+@media only screen and (max-width:426px){
+   .effects__inside{
+      flex-direction: column;
+   }
+   .effects__title{
+      font-size: 32px;
+      line-height: 48px;
+   }
+   .effects__img{
+      width: 100%;
+      max-width: 352px;
+      margin-bottom: 32px;
+   }
 }

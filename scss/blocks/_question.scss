@@ -154,3 +154,9 @@ content: url(../../img/minus_circle.svg);
 .ask4 .question__ask4{
    display: block;
 }
+
+@media only screen and (max-width:426px){
+   .question{
+      padding-bottom: 100px;
+   }
+}

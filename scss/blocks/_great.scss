@@ -6,12 +6,9 @@
    display: flex;
    justify-content: space-between;
 }
-// .great__info{
-//    width: 535px;
-//    margin-right: auto;
-// }
 .great__title-case{
-   width: 380px;
+   width: 100%;
+   max-width: 380px;
    margin-bottom: 24px;
 }
 .great__title{
@@ -41,7 +38,8 @@
    z-index: 1;
 }
 .great__input{
-   width: 470px;
+   width: 100%;
+   max-width: 470px;
    font-family: "Poppins";
    font-style: normal;
    font-weight: normal;
@@ -98,4 +96,45 @@
 .remembers__info--green{
    color: #02897A;
    margin-left: 0px;
+}
+
+@media only screen and (max-width:426px){
+   .great{
+      padding-top: 120px;
+   }
+   .great__inside{
+      flex-direction: column;
+   }
+   .great__title{
+      text-align: center;
+      font-size: 36px;
+   }
+   .great__describe{
+      text-align: center;
+   }
+   .great__button{
+      right: -52px;
+   }
+   .great__main-img{
+      margin-top: 32px;
+   }
+   .remembers__img{
+      width: 120px;
+   }
+}
+@media only screen and (max-width:401px) {
+   .great__form{
+      margin-bottom: 100px;
+   }
+   .great__button{
+      top: 90px;
+      left: 50%;
+      transform: translate(-50%);
+   }
+   .remembers{
+      justify-content: center;
+   }
+   .remembers__img{
+      width: 100px;
+   }
 }
